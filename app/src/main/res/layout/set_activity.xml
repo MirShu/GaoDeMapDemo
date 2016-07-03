@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:id="@+id/ll_hat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/set_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/back_selector" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:text="设置" />
+        </RelativeLayout>
+
+
+
+        <View
+            android:id="@+id/num_one_view"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/shop_time" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:background="#f4f4f4" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+
+        <RelativeLayout
+            android:id="@+id/ll_mapset"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ll_list_back"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:id="@+id/tt_mapset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="地图设置"
+                android:textColor="@color/black"
+                android:textSize="16.0dip" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/nearby_quick_more_left_array" />
+
+
+        </RelativeLayout>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:background="#f4f4f4" />
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/ll_navigation"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ll_list_back"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tt_navigation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="导航设置"
+                android:textColor="@color/black"
+                android:textSize="16.0dip" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/nearby_quick_more_left_array" />
+
+
+        </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#f4f4f4" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+
+        <RelativeLayout
+            android:id="@+id/ll_city"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ll_list_back"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="城市切换"
+                android:textColor="@color/black"
+                android:textSize="16.0dip" />
+
+
+
+            <TextView
+                android:id="@+id/now_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+               android:layout_marginRight="30dp"
+                android:text="当前城市"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/nearby_quick_more_left_array" />
+
+
+        </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#f4f4f4" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+
+
+        <RelativeLayout
+            android:id="@+id/ll_messge"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ll_list_back"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:text="消息推送"
+                android:textColor="@color/black"
+                android:textSize="16.0dip" />
+
+
+            <ToggleButton
+                android:id="@+id/layer_url_button"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                android:button="@drawable/select_button"
+                android:checked="false"
+                android:textOff=""
+                android:textOn="" />
+
+
+        </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:background="@color/more_line_color" />
+        <RelativeLayout
+            android:id="@+id/ll_wifi"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ll_list_back"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="WI-FI下自动下载最新版"
+                android:textColor="@color/black"
+                android:textSize="16.0dip" />
+
+
+            <ToggleButton
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:paddingRight="20dp"
+                android:background="@android:color/transparent"
+                android:button="@drawable/select_button"
+                android:checked="true"
+                android:textOff=""
+                android:textOn="" />
+
+
+        </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#f4f4f4" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+
+    <RelativeLayout
+        android:id="@+id/ll_delet"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ll_list_back"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/tt_delet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="清除缓存"
+            android:textColor="@color/black"
+            android:textSize="16.0dip" />
+
+
+        <TextView
+            android:id="@+id/tv_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:text="当前城市"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/nearby_quick_more_left_array" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#f4f4f4" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+
+        <RelativeLayout
+            android:id="@+id/ll_help"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ll_list_back"
+            android:gravity="center_vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/black"
+                android:text="帮助"
+                android:textSize="16.0dip" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/nearby_quick_more_left_array" />
+
+
+        </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/more_line_color" />
+
+</LinearLayout>

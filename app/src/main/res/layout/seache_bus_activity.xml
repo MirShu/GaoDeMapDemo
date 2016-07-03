@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/ll_hat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/set_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="长沙市" />
+
+
+        <TextView
+            android:id="@+id/tv_chose_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/blue"
+            android:text="切换城市"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+    <View
+
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/shop_time" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/searche_bus_ediText"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/seache_had"
+            android:drawableRight="@drawable/voice_btn_normal"
+            android:hint="公交路线、站台"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/search_bus_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="搜索"
+            android:textColor="#eeffff"
+            android:background="@drawable/seache_selector"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <View
+
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/shop_time" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="支持公交及地铁线路、站点查询、还可以\n语音输入喔"/>
+
+
+</LinearLayout>

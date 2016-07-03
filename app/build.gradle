@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.example.gaodemapdemo"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "5.7.302"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile files('libs/AMap_3DMap_V3.2.1_20160225.jar')
+    compile files('libs/AMap_Location_v2.3.0_20160112.jar')
+    compile files('libs/pgyer_sdk_2.2.2.jar')
+    compile files('libs/AMap_2DMap_V2.8.1_20160202.jar')
+    compile 'com.koushikdutta.ion:ion:2.1.6'
+    compile files('libs/AMap_Search_V3.2.1_20160308.jar')
+}

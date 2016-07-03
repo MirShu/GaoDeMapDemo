@@ -1,0 +1,104 @@
+<com.example.gaodemapdemo.activity.activity.view.InputMethodLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login2" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+       >
+
+
+        <ImageView
+            android:id="@+id/icon_login"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_login"/>
+
+
+        <TextView
+            android:id="@+id/tv_platform_name"
+            style="@style/copy_right_tv"
+         />
+
+        <!-- Login progress -->
+        <ProgressBar
+            android:id="@+id/login_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+        <ScrollView
+            android:id="@+id/login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:padding="24dp"
+            android:layout_gravity="right|left">
+
+            <LinearLayout
+                android:id="@+id/email_login_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/uername"
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:hint="用户名"
+                    android:textColor="@color/black"
+                    android:inputType="textEmailAddress"
+                    android:textSize="14sp"
+                    android:maxLines="2"
+                    android:drawableLeft="@drawable/icon_username"
+                    android:background="@drawable/user_edittext_normal"
+                    android:drawablePadding="20dp"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"/>
+
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:textColor="@color/black"
+                    android:hint="密码"
+                    android:textSize="14sp"
+                    android:imeActionId="@+id/login"
+                    android:imeActionLabel="登录"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:drawableLeft="@drawable/icon_password"
+                    android:background="@drawable/user_edittext_normal"
+                    android:drawablePadding="20dp"
+                    android:layout_marginTop="5dp"
+                    android:singleLine="true"/>
+
+                <Button
+                    android:id="@+id/sign_in_button"
+                    android:background="@drawable/radius_button_selector"
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="16dp"
+                    android:text="登录"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</com.example.gaodemapdemo.activity.activity.view.InputMethodLayout>

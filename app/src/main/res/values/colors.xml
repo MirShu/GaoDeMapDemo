@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="white_100">#E8ffffff</color>
+    <color name="gray">#f0f0f0</color>
+    <color name="red">#FE3231</color>
+    <color name="dark_gray">#B7B7B7</color>
+    <color name="blue">#009afe</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#ffffeb09</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_90">#33000000</color>
+    <color name="line_gray">#EFEFEF</color>
+    <color name="title_blue">#17B4EB</color>
+    <color name="light_green">#E8F6F7</color>
+    <color name="searche_color">#f7abab</color>
+    <color name="true_foot_celect">#ebebed</color>
+    <color name="gj_line_color">#dddddd</color>
+
+
+    <color name="half_transparent">#60000000</color>
+    <color name="backgroundcolor">#F5F5F5</color>
+    <color name="alph_base">#A017B4EB</color>
+    <color name="base_color">#17B4EB</color>
+    <color name="textgray">#A39898</color>
+    <color name="shallowgray">#e1e1e1</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="gray_0">#EEE6E6E6</color>
+    <color name="gray_100">#F5F5F5</color>
+  <color name="more_line_color">#eeeeee</color>
+    <color name="bg_100">#eebce6d8</color>
+
+    <!--<color name="style_color_primary">#2d5d82</color>-->
+    <!--<color name="style_color_primary_dark">#21425d</color>-->
+    <!--<color name="style_color_accent">#01bcd5</color>-->
+
+    <color name="style_color_primary">#17B4EB</color>
+    <color name="style_color_primary_dark">#2d5d82</color>
+    <color name="style_color_accent">#01bcd5</color>
+    <!--<color name="style_color_accent">#000000</color>-->
+
+    <color name="fab_color_pressed">#007787</color>
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+    <color name="btn_default_shadow">#99000000</color>
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+    <color name="btn_context_menu_text_red">#ffff0000</color>
+
+    <color name="text_like_counter">#2b5a83</color>
+    <color name="bg_comments">#ffffff</color>
+
+
+
+    <color name="colorPrimary">#FF03A9F4</color>
+    <color name="colorPrimaryDark">#ff0171c9</color>
+    <color name="colorAccent">#FF00E5FF</color>
+    <color name="colorControlNormal">#FF78909C</color>
+    <color name="colorControlActivated">#FF03A9F4</color>
+    <color name="colorSwitchThumbNormal">#FF78909C</color>
+
+    <array name="progress_colors">
+        <item>#FF3F8AF8</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+
+    <array name="in_colors">
+        <item>#FFB5D4FF</item>
+        <item>#FFDEEAFC</item>
+        <item>#FFFAFFFE</item>
+    </array>
+
+    <color name="rb_checked">#FF4CAF50</color>
+    <color name="rb_unchecked">#FF6D6D6D</color>
+    <color name="rb_disable">#FFB0B0B0</color>
+
+    <color name="tpi_checked">#FFFFFFFF</color>
+    <color name="tpi_unchecked">#99FFFFFF</color>
+
+    <color name="et_divider_focused">@color/colorControlActivated</color>
+    <color name="et_divider_not_focused">#FF6D6D6D</color>
+    <color name="et_divider_disable">#FFC1C1C1</color>
+
+    <color name="shop_item_93_gray">#ff5d5d5d</color>
+    <color name="shop_item_address">#ff494949</color>
+    <color name="shop_item_content">#ff4c4c4c</color>
+    <color name="shop_item_content_100">#ff646464</color>
+    <color name="shop_item_content_70">#ff464646</color>
+    <color name="shop_item_info_txt">#fffdeaea</color>
+    <color name="shop_item_label">#ff828282</color>
+    <color name="shop_item_label_170">#ffaaaaaa</color>
+    <color name="shop_item_label_180">#ffb4b4b4</color>
+    <color name="shop_item_label_28">#ff1c1c1c</color>
+    <color name="shop_item_label_82">#ff828282</color>
+    <color name="shop_item_label_96">#ff969696</color>
+    <color name="shop_item_list_bg">#fff0eff4</color>
+    <color name="shop_item_list_title">#ff252525</color>
+    <color name="shop_item_love_count">#ff969696</color>
+    <color name="shop_item_schedule_tile">#ff252525</color>
+    <color name="shop_item_time">#ff959595</color>
+    <color name="link_color">#ff4598dc</color>
+    <color name="link_color_alpha">#904598dc</color>
+    <color name="link_color_click">#ff368cc8</color>
+    <color name="shop_time">#959595</color>
+</resources>

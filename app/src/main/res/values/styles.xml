@@ -1,0 +1,67 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="bottom_toolbar_item_style">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/half_transparent</item>
+    </style>
+
+
+    <!--<style name="right_toolbar_item_style">-->
+        <!--<item name="android:layout_width">40dp</item>-->
+        <!--<item name="android:layout_height">40dp</item>-->
+        <!--<item name="android:layout_gravity">center_vertical</item>-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:orientation">vertical</item>-->
+        <!--<item name="android:background">@drawable/radius_half_transparent</item>-->
+    <!--</style>-->
+
+
+
+    <style name="right_toolbar_item_style">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/radius_half_transparent</item>
+    </style>
+
+
+
+    <style name="copy_right_tv">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:layout_alignParentBottom">true</item>
+    <item name="android:text">@string/copy_right</item>
+    <item name="android:layout_marginBottom">5dp</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:layout_centerHorizontal">true</item>
+    <item name="android:textColor">#999999</item>
+
+    </style>
+
+</resources>
